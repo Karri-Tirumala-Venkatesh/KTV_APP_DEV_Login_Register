@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:fontFamily="serif"
+        android:layout_marginTop="345dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:padding="20dp"/>
+
+    
+    <EditText
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:inputType="text"
+        android:id="@+id/username_input"/>
+
+    <EditText
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/password_input"/>
+
+    <EditText
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/confirm_password_input"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button2"
+        android:id="@+id/login_btn"/>
+
+    <TextView
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:paddingVertical="16dp"/>
+
+    <Button
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/sign_in_btn"/>
+
+
+
+
+
+</LinearLayout>
